@@ -1,0 +1,27 @@
+$tema: #6867ac;
+$blanco: #fff; 
+$tema-foot: #222;
+$before: rgba(0, 0, 0, 0.45);
+$letra-titulos:'Arima Madurai', cursive;
+
+$paleta: (
+    tema: #6867ac,
+    blanco: #fff,
+    tema-foot: #222,
+    before: rgba(0, 0, 0, 0.45)
+);
+
+
+
+@mixin bannerimg($width,$height,$cover) {
+    width: $width;
+    height: $height;
+    object-fit: $cover;
+}
+
+@mixin bannervid($width,$height,$cover) {
+    width: $width;
+    height: $height;
+    object-fit: $cover;
+}
+
